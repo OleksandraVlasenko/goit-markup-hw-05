@@ -774,13 +774,7 @@ input::placeholder {
     margin-right: 8px;
 }
 
-.form-checkbox-input:checked+.form-checkbox-label .form-custom-checkbox {
-    background-color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
-}
-
-.form-custom-checkbox[type="checkbox"]:checked {
+.form-checkbox-input:checked+.form-checkbox-label>.form-custom-checkbox {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
